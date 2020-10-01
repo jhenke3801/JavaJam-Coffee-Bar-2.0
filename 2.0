@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Javajam Coffe Bar Menu </title>
+
+    <link rel="stylesheet" href="Javajam.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <h1><center><b>JavaJam Coffee Bar</b></center></h1>
+
+        <ul>
+
+            <center>
+
+                <a href="home.html"><li> Home</li></a>
+
+                <a href="menu.html"><li> Menu</li></a>
+
+                <a href=""><li>Music</li></a>
+
+                <a href=""><li>Jobs </li></a>
+
+            </center>
+
+        </ul>
+
+        <div>
+
+            <h2><b>Relax at JavaJam</b></h2>
+
+            <ul>
+
+                <li>Speciality Coffee and Organic Tea</li>
+
+                <li>Bagels, Muffins & Gluten-free Pastries</li>
+
+                <li>Organic Salads</li>
+                
+                <li>Music and Poetry Readings</li>
+
+                <li>Open Mic Night</li>
+
+            </ul>
+
+            <p> 12010 Garrett Bay Road<br>
+
+                Ellison Bay,WI 54210<br>
+
+                888-555-5555</p>
+
+            <footer>
+
+                <center>
+
+                    <h4>Copyright &copy;2020 JavaJam Coffee Bar</h4>
+
+                    <a href="mailto:javajamcoffeebar@gmail.com">javajamcoffeebar@gmail.com</a>
+
+                </center>
+
+            </footer>
+
+</body>
+
+</html>
+
+menu.html
+
+<html>
+
+<head>
+
+    <title> JavaJam Coffe Bar Menu </title>
+
+    <link rel="stylesheet" href="javajam.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+      <h1>JavaJam Coffee Bar</h1>
+
+       <ul>
+
+         <center>
+
+              <a href="home.html"><li>Home</li></a>
+
+              <a href="menu.html"><li>Menu</li></a>
+
+              <a href=""><li>Music</li></a>
+
+              <a href=""><li>Jobs </li></a>
+
+            </center>
+
+        </ul>
+
+        <div>
+
+            <h2> Coffee at JavaJam </h2>
+
+            <h4>Just Java</h4>
+
+            <blockquote>
+
+                Regular house blend, decaffeinated coffee,or flavor of the day.
+
+                Endless Cup $3.50
+
+            </blockquote>
+
+            <h4>Cafe au Lait</h4>
+
+            <blockquote>
+
+                House blended coffee infused into a smooth, steamed milk.
+
+                Single $4.00 Double $5.00
+
+            </blockquote>
+
+            <h4>Iced Cappuccino</h4>
+
+            <blockquote>
+
+               Sweetened expresso blended with icy-cold milk and served in a<br>
+               
+               chilled glass</br>
+
+                Single $5.00 Double $6.50
+
+            </blockquote>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <center>
+
+            <h4>Copyright &copy;2020 JavaJam Coffe Bar</h4>
+
+            <a href="mailto:javajamcoffeebar@gmail.com">javajamcoffeebar@gmail.com</a>
+
+        </center>
+
+    </footer>
+
+</body>
+
+</html>
+
+javajam.css
+
+body {
+
+    background-color: #FCEBB6;
+
+    color: #221811;
+
+    font-family: Tahoma;
+
+    margin: 100px 100px;
+
+}
+
+#wrapper h1 {
+
+    background-color: #D2B48C;
+
+    text-align: center;
+
+    line-height: 200%;
+
+}
+
+#wrapper a li {
+
+    text-decoration: none;
+
+    display: inline;
+
+    padding: 10px 6px;
+
+    text-align: center;
+
+}
+
+footer {
+
+    background-color: #D2B48C;
+
+    font-family: Tahoma;
+
+    font-weight: bold;
+
+    font-size: .60em;
+
+    text-align: center;
+
+    font-style: italic;
+
+}
+
+    footer h4 {
+
+        margin: 0px;
+
+        font-weight: bold;
+
+    }
